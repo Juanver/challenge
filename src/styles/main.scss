@@ -1,0 +1,237 @@
+@import 'colors';
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Lato', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $gray-text;
+    height: 100vh;
+}
+#root{
+    height: 100%;
+}
+.container-fluid{
+    height: 100%;
+}
+.form-select{
+    padding: 16px;
+    font-size: 16px;
+
+    &:focus {
+        box-shadow: none;
+        border-color: $purple;
+    }
+}
+.form-control{
+    padding: 16px;
+    font-size: 16px;
+
+    &:focus {
+        box-shadow: none;
+        border-color: $purple;
+    }
+}
+.form-check-input {
+
+    &:checked {
+        background-color: $green;
+        border-color: $green;
+    }
+    &:focus {
+        box-shadow: none;
+    }
+}
+.btn-primary{
+    background-color: $main-red;
+    border-color: $main-red;
+    border-radius: 8px;
+    padding: 20px 60px;
+
+    &:hover{
+        background-color: $main-red-hover;
+        border-color: $main-red-hover;
+    }
+    &:active{
+        background-color: $main-red-hover;
+        border-color: $main-red-hover;
+    }
+    &:focus{
+        box-shadow: none;
+    }
+}
+.custom_height{
+    height: 100%;
+}
+.tracking{
+    background-image: url(../images/first-scren/background.svg);
+    background-size: cover;
+    background-position: 0% 50%;
+}
+.tracking__content{
+    max-width: 80%;
+    margin-left: auto;
+}
+.container-person img{
+    max-width: 100%;
+}
+.container-info {
+    p:first-child{
+        color: $gray-title;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    p{
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    span{
+        color: $main-red;
+    }
+}
+.footer{
+    padding-top: 20px;
+
+    p{
+        color: $gray-custom;
+    }
+}
+
+//right
+.contact-top{
+    max-width: 500px;
+    margin-top: 16px;
+    margin-left: auto;
+
+    p{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+    span{
+        color: $purple;
+        cursor: pointer;
+        margin-left: 20px;
+
+        img{
+            width: 13px;
+        }
+    }
+}
+
+.main-form{
+    max-width: 400px;
+    margin: 100px auto;
+
+    h2{
+        margin-bottom: 24px;
+    }
+
+    a{
+        color: $gray-title;
+    }
+    p{
+        color: $main-red;
+    }
+
+}
+.main-form__custom{
+    select {
+        border-radius: .25rem 0 0 .25rem;
+        display: inline-block;
+        width: 25%;
+    }
+    input{
+        display: inline-block;
+        width: 75%;
+        border-radius: 0 .25rem .25rem 0;
+    }
+}
+.main-form__message{
+    color: $main-red-hover;
+}
+
+// medias
+
+@media (min-width: 767px){
+    .container-logo{
+        span{
+            display: none;
+        }
+    }
+    .tracking__content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .main-form{
+        height: calc(100vh - 60px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1200px){
+    .tracking__content {
+        max-width: 100%;
+        margin-right: auto;
+    }
+}
+@media (max-width: 767px){
+    .tracking {
+        padding-right: 0;
+        
+    }
+    .tracking__content-flex{
+        display: flex;
+        overflow-x: hidden;
+    }
+    .container-person{
+        order: 2;
+    }
+    .container-info {
+        order: 1;
+    }
+    .container-logo{
+        display: flex;
+        justify-content: space-between;
+        
+        span{
+            margin-right: 15px;
+
+            a{
+                color: $purple;
+                text-decoration: none;
+            }
+        }
+    }
+    .footer{
+        display: none;
+    }
+    
+    //right
+    .contact-top{
+        display: none;
+    }
+    .main-form {
+        margin: 40px auto;
+        max-width: 100%;
+    }
+    .btn-primary{
+        width: 100%;
+    }
+
+}
+@media (max-width: 576px){
+    .container-person{
+        img {
+            width: 150%;
+            max-width: 200%;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@import '../colors';
+.row{
+    height: 100%;
+}
+.container-fluid{
+    height: calc(100% - 55.33px);
+}
+.container-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    img{
+        max-width: 100%;
+        padding: 15px 20px;
+    }
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    span{
+        display: block;
+        color: $main-red;
+    }
+}
+
+@media (max-width: 768px){
+    .container-fluid{
+        height: calc(100% - 55px);
+
+    }
+    .row {
+        height: calc(100% - 55px);
+    }
+    .container-image{
+        overflow-y: hidden;
+
+        img{
+            padding: 15px 20px;
+            height: 150%;
+            margin-bottom: -200px;
+            transform: scaleX(-1);
+        }
+    }
+    .text{
+        margin-top: 15px;
+    }
+}

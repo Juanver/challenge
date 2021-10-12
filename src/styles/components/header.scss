@@ -1,0 +1,39 @@
+@import '../colors';
+
+.container-header{
+    
+    border-bottom: 1px solid #E4E8F7;
+}
+.container-header__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+    p{
+        margin-bottom: 0;
+    }
+    span{
+        color: $purple;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 992px){
+    .container-header__flex {
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 767px){
+    .contact-mobile{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .contact{
+        display: none;
+    }
+}
