@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5e8049d.chunk.css",
-    "main.js": "/static/js/main.7e2aaa48.chunk.js",
-    "main.js.map": "/static/js/main.7e2aaa48.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.59f5f948.js",
-    "runtime-main.js.map": "/static/js/runtime-main.59f5f948.js.map",
-    "static/js/2.0d68e3d4.chunk.js": "/static/js/2.0d68e3d4.chunk.js",
-    "static/js/2.0d68e3d4.chunk.js.map": "/static/js/2.0d68e3d4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a5e8049d.chunk.css.map": "/static/css/main.a5e8049d.chunk.css.map",
-    "static/js/2.0d68e3d4.chunk.js.LICENSE.txt": "/static/js/2.0d68e3d4.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/static/media/background.0f5c720e.svg",
-    "static/media/chevrot.9443a1bf.svg": "/static/media/chevrot.9443a1bf.svg",
-    "static/media/icon-atropello.5b93a851.svg": "/static/media/icon-atropello.5b93a851.svg",
-    "static/media/icon-choque.8d967c37.svg": "/static/media/icon-choque.8d967c37.svg",
-    "static/media/icon-llanta.165d6a00.svg": "/static/media/icon-llanta.165d6a00.svg",
-    "static/media/icon-phone.659c4c5f.svg": "/static/media/icon-phone.659c4c5f.svg",
-    "static/media/image-person.7d83b3f9.svg": "/static/media/image-person.7d83b3f9.svg",
-    "static/media/image-tracking.b8f45685.svg": "/static/media/image-tracking.b8f45685.svg",
-    "static/media/person.31d5d94e.svg": "/static/media/person.31d5d94e.svg"
+    "main.css": "/challenge/static/css/main.bd73b72d.chunk.css",
+    "main.js": "/challenge/static/js/main.c73dcb03.chunk.js",
+    "main.js.map": "/challenge/static/js/main.c73dcb03.chunk.js.map",
+    "runtime-main.js": "/challenge/static/js/runtime-main.03b85801.js",
+    "runtime-main.js.map": "/challenge/static/js/runtime-main.03b85801.js.map",
+    "static/js/2.0d68e3d4.chunk.js": "/challenge/static/js/2.0d68e3d4.chunk.js",
+    "static/js/2.0d68e3d4.chunk.js.map": "/challenge/static/js/2.0d68e3d4.chunk.js.map",
+    "index.html": "/challenge/index.html",
+    "static/css/main.bd73b72d.chunk.css.map": "/challenge/static/css/main.bd73b72d.chunk.css.map",
+    "static/js/2.0d68e3d4.chunk.js.LICENSE.txt": "/challenge/static/js/2.0d68e3d4.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/challenge/static/media/background.0f5c720e.svg",
+    "static/media/chevrot.9443a1bf.svg": "/challenge/static/media/chevrot.9443a1bf.svg",
+    "static/media/icon-atropello.5b93a851.svg": "/challenge/static/media/icon-atropello.5b93a851.svg",
+    "static/media/icon-choque.8d967c37.svg": "/challenge/static/media/icon-choque.8d967c37.svg",
+    "static/media/icon-llanta.165d6a00.svg": "/challenge/static/media/icon-llanta.165d6a00.svg",
+    "static/media/icon-phone.659c4c5f.svg": "/challenge/static/media/icon-phone.659c4c5f.svg",
+    "static/media/image-person.7d83b3f9.svg": "/challenge/static/media/image-person.7d83b3f9.svg",
+    "static/media/image-tracking.b8f45685.svg": "/challenge/static/media/image-tracking.b8f45685.svg",
+    "static/media/person.31d5d94e.svg": "/challenge/static/media/person.31d5d94e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.59f5f948.js",
+    "static/js/runtime-main.03b85801.js",
     "static/js/2.0d68e3d4.chunk.js",
-    "static/css/main.a5e8049d.chunk.css",
-    "static/js/main.7e2aaa48.chunk.js"
+    "static/css/main.bd73b72d.chunk.css",
+    "static/js/main.c73dcb03.chunk.js"
   ]
 }
