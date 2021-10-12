@@ -11,7 +11,7 @@ import Gracias from '../Pages/Gracias';
 
 const App = () => {
     return ( 
-        <Router>
+        <Router Router basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/arma-tu-plan/:id/:tag"  component={ArmaTuPlan} />
